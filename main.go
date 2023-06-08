@@ -19,4 +19,13 @@ func main() {
 	fmt.Println("var msg string show: ", msg)
 	fmt.Println("b := 2  show:", b)
 	fmt.Println("c:=float64(b) show:", c)
+
+	var e any
+	e = "test any"
+	fmt.Println("ทดลอง any ด้วย var e any e= test any show: ", e)
+
+	var f any
+	f = "แปลง any เป็น String"
+	g := f.(string)
+	fmt.Println(g)
 }
